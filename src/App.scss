@@ -1,5 +1,9 @@
 @import "styles/colors.scss";
 
+body {
+  color: $white;
+}
+
 .content-wrapper {
   margin: 0 auto;
   padding: 0 0.5em;
@@ -9,47 +13,6 @@
 
 .row {
   display: flex;
-}
-
-.header-container {
-  height: 3.2em;
-  background-color: $black;
-  padding-top: 0.625em;
-}
-
-.header-container .content-wrapper {
-  flex-direction: row;
-}
-
-header h1.logo {
-  font-size: 1.4em;
-  font-family: "Eleuther", "Inter", sans-serif;
-  font-weight: 400;
-}
-
-header h1.logo .logo-image {
-  width: 40px;
-  height: 40px;
-}
-
-.logo-text {
-  text-align: left;
-  margin: 0;
-  padding: 0;
-  border: 0px none;
-  position: relative;
-  left: 0.45em;
-  bottom: 0.4em;
-  color: $white;
-}
-
-h1.logo-text a {
-  text-decoration: none;
-  color: $white;
-}
-
-.head-right {
-  margin-left: auto;
 }
 
 .main {
@@ -65,7 +28,7 @@ h1.logo-text a {
 }
 
 .page-content {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .form-container {
@@ -120,13 +83,6 @@ h1.logo-text a {
 
 .close-icon:hover {
   opacity: 0.8;
-}
-
-h2.page-title {
-  font-size: 1.3em;
-  text-align: center;
-  margin: 1.2em 0 1.5em 0;
-  text-transform: uppercase;
 }
 
 .link {
@@ -239,24 +195,15 @@ h2.page-title {
   background-color: $grey;
   padding: 0.75em 0;
 }
-
-footer {
-  margin-top: 6em;
-}
-
-.footer-content {
-  text-align: center;
-  font-size: 0.6em;
-}
-
-.footer-text a {
-  text-decoration: underline;
-  color: white;
-}
-
 .error-text {
   text-align: center;
   color: red;
+}
+
+.main-content {
+  background-color: $darkBlue;
+  min-height: 12em;
+  padding-bottom: 2em;
 }
 
 /* ------ RESPONSIVE STYLES ------ */
@@ -272,7 +219,7 @@ footer {
 }
 
 /* Tablet */
-/* @media (max-width: 769px) {
+@media (max-width: 769px) {
   .content-wrapper {
     max-width: 769px;
     width: 100%;
@@ -281,20 +228,26 @@ footer {
   .image-content img {
     width: 350px;
   }
-} */
+}
 
 /* Laptop */
 @media (min-width: 960px) {
   .content-wrapper {
-    max-width: 35em;
+    max-width: 45em;
   }
 }
 
 /* Desktop */
-
 @media (min-width: 1140px) {
   .content-wrapper {
-    max-width: 45em;
+    max-width: 55em;
+  }
+}
+
+/* Big Desktop */
+@media (min-width: 1600px) {
+  .content-wrapper {
+    max-width: 65em;
   }
 }
 

@@ -1,0 +1,15 @@
+@import "../styles/colors.scss";
+
+footer {
+  margin-top: 6em;
+}
+
+.footer-content {
+  text-align: center;
+  font-size: 0.6em;
+}
+
+.footer-text a {
+  text-decoration: underline;
+  color: $darkBlue;
+}

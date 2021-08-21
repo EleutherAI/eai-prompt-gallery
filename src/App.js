@@ -10,9 +10,11 @@ export default function App() {
     <div className="App">
       <Router>
         <Header />
-        <div className="content-wrapper">
-          <div className="page-content">
-            <Routes />
+        <div className="main-content">
+          <div className="content-wrapper">
+            <div className="page-content">
+              <Routes />
+            </div>
           </div>
         </div>
         <Footer />
