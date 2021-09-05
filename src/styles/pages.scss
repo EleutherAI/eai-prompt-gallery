@@ -35,3 +35,25 @@ h4.page-subtitle {
     }
   }
 }
+
+.main-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  li {
+    margin: 0.5em 0em 0.5em 0;
+    padding: 0em;
+    width: 47%;
+    border: 1px solid $white;
+  }
+}
+
+.button-outline {
+  border: 1px solid $light-blue;
+  padding: 0.2em 0.5em;
+  font-size: 1em;
+  color: $light-blue;
+  background-color: transparent;
+  border-radius: 0.2em;
+}

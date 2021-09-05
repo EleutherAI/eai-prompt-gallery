@@ -4,6 +4,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import ArtPrompts from "../pages/ArtPrompts";
 import TextPrompts from "../pages/TextPrompts";
 import CodePrompts from "../pages/CodePrompts";
+import SingleItem from "../pages/SingleItem";
 
 export default function Routes() {
   return (
@@ -11,14 +12,23 @@ export default function Routes() {
       <Route exact path="/">
         <Redirect to="/art" />
       </Route>
-      <Route path="/art">
+      <Route exact path="/art">
         <ArtPrompts />
       </Route>
-      <Route path="/text">
+      <Route path="/art/:itemId">
+        <SingleItem />
+      </Route>
+      <Route exact path="/text">
         <TextPrompts />
       </Route>
-      <Route path="/code">
+      <Route path="/text/:itemId">
+        <SingleItem />
+      </Route>
+      <Route exact path="/code">
         <CodePrompts />
+      </Route>
+      <Route path="/code/:itemId">
+        <SingleItem />
       </Route>
     </Switch>
   );

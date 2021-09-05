@@ -8,7 +8,7 @@ const Header = () => {
       <div className="content-wrapper row">
         <div>
           <h1 className="logo">
-            <a href="https://www.eleuther.ai/">
+            <a href="/">
               <img
                 id="logo"
                 className="logo-image"
