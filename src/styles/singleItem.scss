@@ -1,0 +1,28 @@
+@import "../styles/colors.scss";
+
+.back-container {
+  margin: 1.5em 0;
+}
+
+.single-item-container {
+  .single-item-content {
+    max-width: 768px;
+    background-color: $black;
+    padding: 0.6em 1.2em;
+
+    .single-item-content-prompt {
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .single-item-content-completion {
+      font-size: 1em;
+      font-weight: 300;
+      margin-top: 1em;
+    }
+  }
+  .single-item-details {
+  }
+  .single-item-buttons {
+  }
+}

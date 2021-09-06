@@ -8,8 +8,8 @@ import Footer from "./components/shared/Footer";
 export default function App() {
   return (
     <div className="App">
+      <Header />
       <Router>
-        <Header />
         <div className="main-content">
           <div className="content-wrapper">
             <div className="page-content">
@@ -17,8 +17,8 @@ export default function App() {
             </div>
           </div>
         </div>
-        <Footer />
       </Router>
+      <Footer />
     </div>
   );
 }

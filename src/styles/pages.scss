@@ -41,19 +41,30 @@ h4.page-subtitle {
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-between;
-  li {
-    margin: 0.5em 0em 0.5em 0;
-    padding: 0em;
-    width: 47%;
-    border: 1px solid $white;
-  }
+}
+
+.assets-list-body {
+  margin-top: 2em;
 }
 
 .button-outline {
   border: 1px solid $light-blue;
-  padding: 0.2em 0.5em;
+  padding: 0.2em 0.6em;
   font-size: 1em;
   color: $light-blue;
   background-color: transparent;
-  border-radius: 0.2em;
+  border-radius: 0.6em;
+
+  .icon-arrow {
+    position: relative;
+    top: 1px;
+  }
+
+  &.arrow-left .icon-arrow {
+    transform: rotate(0.5turn);
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
 }

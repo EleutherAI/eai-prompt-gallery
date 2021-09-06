@@ -12,7 +12,7 @@ const Header = () => {
               <img
                 id="logo"
                 className="logo-image"
-                src="img/eai_logo_small_exported.png"
+                src="/img/eai_logo_small_exported.png"
                 alt="EleutherAI logo"
               />
               <span className="logo-text">EleutherAI</span>
