@@ -6,7 +6,7 @@ import AssetList from "../components/AssetList/AssetList";
 import "../styles/pages.scss";
 
 export default function TextPrompts() {
-  const [textPrompts, setTextPrompts] = useState([]);
+  const [textPrompts, setTextPrompts] = useState(undefined);
   useEffect(() => {
     fetch("http://localhost:3000/api/promptData.json")
       .then((response) => {

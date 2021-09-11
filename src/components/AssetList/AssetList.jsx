@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import IconArrow from "../../icons/IconArrow";
 import IconBrain from "../../icons/IconBrain";
+import Loader from "../shared/Loader";
 
 import "../../styles/assetList.scss";
 
@@ -37,10 +38,15 @@ const AssetListItem = ({ data, path }) => {
 export default function AssetList({ data, type }) {
   const location = useLocation();
   const path = location.pathname;
+
   return (
     <div className="assets-list-container">
       {/* <div className="assets-list-top-navigation">Asset list navigation</div> */}
       <div className="assets-list-body">
+        {!data && <Loader />}
+        {data?.length === 0 && (
+          <div className="no-assets-message">No assets found</div>
+        )}
         <ul className={"main-list " + type}>
           {data?.length > 0 &&
             data.map((item) => {

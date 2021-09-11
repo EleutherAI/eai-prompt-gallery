@@ -1,10 +1,13 @@
 @import "../styles/colors.scss";
 
+.no-assets-message {
+  text-align: center;
+}
+
 .asset-data-body {
   margin: 0.5em 0em 1.4em 0;
   padding: 0em;
   width: 47%;
-
   .asset-body-prompt {
     font-weight: bold;
     font-size: 0.9em;
@@ -38,5 +41,11 @@
     .asset-item-bottom-right {
       font-size: 0.9em;
     }
+  }
+}
+
+@media (max-width: 450px) {
+  .asset-data-body {
+    width: 100%;
   }
 }
