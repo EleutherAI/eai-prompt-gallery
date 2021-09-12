@@ -8,9 +8,24 @@
   margin: 0.5em 0em 1.4em 0;
   padding: 0em;
   width: 47%;
-  .asset-body-prompt {
+
+  .asset-body-category {
+    margin-bottom: 1em;
+  }
+
+  .asset-body-category .category-text {
+    text-transform: capitalize;
+    padding: 0.2em 0.4em;
+    border: 1px solid $grey2;
+    font-size: 0.7em;
+  }
+  .asset-body-title {
     font-weight: bold;
-    font-size: 0.9em;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+  }
+  .asset-body-prompt {
+    font-size: 0.8em;
   }
   .asset-body-completion {
     margin-top: 1em;
@@ -21,6 +36,12 @@
     display: flex;
     justify-content: space-between;
     margin: 1.5em 0em;
+
+    .asset-body-tags {
+      font-size: 0.76em;
+      font-style: italic;
+      text-transform: capitalize;
+    }
   }
   .asset-item-bottom {
     margin-top: 1em;
@@ -44,7 +65,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 769px) {
   .asset-data-body {
     width: 100%;
   }

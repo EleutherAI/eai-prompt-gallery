@@ -1,0 +1,41 @@
+[
+  {
+    "id": "0",
+    "title": "English speaking Unicorns in the Andes",
+    "prompt": "In a shocking finding, scientist discovered a herd of unicorns living in a remote, previously unexplored valley, in the Andes Mountains. Even more surprising to the researchers was the fact that the unicorns spoke perfect English.",
+    "completion": "The findings, published this week in the Proceedings of the Royal Society B, could provide some insight into how humans and other primates developed their language. 'The fact that there are people, even the size of the group, that have the same mother tongue, is kind of amazing,' said Dr. Elizabeth Henshilwood, a linguistic anthropologist at the University of Chicago and co-author of the study. Dr. Henshilwood and her colleagues have been studying the group for the past six years. During that time, the group has grown from one unicorn to 19 animals.",
+    "type": "text",
+    "category": "generation",
+    "createdDate": "",
+    "author": "",
+    "modelName": "GPT-6-B",
+    "sourceLink": "https://openai.com/blog/better-language-models/",
+    "tags": ["fantasy", "news", "article"]
+  },
+  {
+    "id": "1",
+    "title": "Miles Cyrus caught shoplifting",
+    "prompt": "Miley Cyrus was caught shoplifting from Abercrombie and Fitch on Hollywood Boulevard today.",
+    "completion": "Cyrus, 19, was caught by employees of the clothing store and was removed from the building. No one was injured during the incident. The shoplifter was reportedly wearing a 'Frozen' shirt that sold out on the brand's website. It is believed that Cyrus took the shirt from Abercrombie and Fitch. The incident began around 4 p.m. after employees of the store noticed a female fitting in a 'Frozen' shirt. The female was reportedly wearing shorts and the shirt. When security was alerted of the shoplifting, the female fled the building.",
+    "type": "text",
+    "category": "generation",
+    "createdDate": "",
+    "author": "",
+    "modelName": "GPT-6-B",
+    "sourceLink": "https://openai.com/blog/better-language-models/",
+    "tags": ["news", "article"]
+  },
+  {
+    "id": "2",
+    "title": "Miles Cyrus caught shoplifting",
+    "prompt": "Miley Cyrus was caught shoplifting from Abercrombie and Fitch on Hollywood Boulevard today.",
+    "completion": "Cyrus, 19, was caught by employees of the clothing store and was removed from the building. No one was injured during the incident. The shoplifter was reportedly wearing a 'Frozen' shirt that sold out on the brand's website. It is believed that Cyrus took the shirt from Abercrombie and Fitch. The incident began around 4 p.m. after employees of the store noticed a female fitting in a 'Frozen' shirt. The female was reportedly wearing shorts and the shirt. When security was alerted of the shoplifting, the female fled the building.",
+    "type": "text",
+    "category": "generation",
+    "createdDate": "",
+    "author": "",
+    "modelName": "GPT-6-B",
+    "sourceLink": "https://openai.com/blog/better-language-models/",
+    "tags": ["news", "article"]
+  }
+]

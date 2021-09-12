@@ -9,10 +9,17 @@ import "../../styles/assetList.scss";
 const AssetListItem = ({ data, path }) => {
   return (
     <li key={data.id} className="asset-data-body">
-      <div className="asset-body-prompt">{data.prompt}</div>
-      <div className="asset-body-completion">{data.completion}</div>
+      <div className="asset-body-category">
+        <span className="category-text">{data.category}</span>
+      </div>
+      <div className="asset-body-title">{data.title}</div>
+      <div className="asset-body-prompt">"{data.prompt}"</div>
       <div className="asset-body-details">
-        {/* <p className="asset-body-tags">Tag1, tag2, tag</p> */}
+        <p className="asset-body-tags">
+          {data.tags.map((item, index) =>
+            index < data.tags.length - 1 ? item + ", " : item
+          )}
+        </p>
         <p className="asset-body-link">
           <Link
             className="asset-view-link button-outline arrow-right"

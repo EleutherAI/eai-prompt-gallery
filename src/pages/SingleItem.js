@@ -16,7 +16,7 @@ export default function SingleItem() {
 
   const [selectedItem, setSelectedItem] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/api/promptData.json")
+    fetch("http://localhost:3000/api/textPrompts.json")
       .then((response) => {
         return response.json();
       })
@@ -42,16 +42,49 @@ export default function SingleItem() {
       </p>
 
       <div className="single-item-container">
-        <div className="single-item-content">
-          <p className="single-item-content-prompt">{selectedItem.prompt}</p>
-          <p className="single-item-content-completion">
-            {selectedItem.completion}
-          </p>
-        </div>
-        {/* <div className="single-item-buttons">
+        <div className="row">
+          <div className="single-item-content">
+            <div className="single-item-header">
+              <h3 className="single-item-title">{selectedItem.title}</h3>
+
+              <p className="single-item-subtitle">
+                (Human prompt is in italic, the model completion is in normal
+                font style.)
+              </p>
+            </div>
+            <div className="single-item-main">
+              <p className="single-item-content-prompt">
+                {selectedItem.prompt}
+              </p>
+              <p className="single-item-content-completion">
+                {selectedItem.completion}
+              </p>
+            </div>
+          </div>
+          {/* <div className="single-item-buttons">
           <button>Share</button>
         </div> */}
-        <div className="single-item-details"></div>
+          <div className="single-item-details">
+            <ul>
+              <li>
+                <p className="details-list-label">Prompt Category</p>
+                <p className="details-list-text">{selectedItem.category}</p>
+              </li>
+              <li>
+                <p className="details-list-label">Tags</p>
+                <p className="details-list-text">
+                  {selectedItem?.tags?.map((item, index) =>
+                    index < selectedItem?.tags?.length - 1 ? item + ", " : item
+                  )}
+                </p>
+              </li>
+              <li>
+                <p className="details-list-label">Model</p>
+                <p className="details-list-text">{selectedItem.modelName}</p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
