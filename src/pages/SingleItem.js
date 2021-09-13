@@ -45,7 +45,7 @@ export default function SingleItem() {
         <div className="row">
           <div className="single-item-content">
             <div className="single-item-header">
-              <h3 className="single-item-title">{selectedItem.title}</h3>
+              <h3 className="single-item-title">{selectedItem?.title}</h3>
 
               <p className="single-item-subtitle">
                 (Human prompt is in italic, the model completion is in normal
