@@ -13,6 +13,11 @@
     margin-bottom: 1em;
   }
 
+  .asset-body-completion img {
+    max-width: 100%;
+    height: auto;
+  }
+
   .asset-body-category .category-text {
     text-transform: capitalize;
     padding: 0.2em 0.4em;
@@ -64,6 +69,11 @@
       font-size: 0.9em;
     }
   }
+}
+
+.art .asset-body-prompt {
+  font-size: 1em;
+  font-weight: bold;
 }
 
 @media (max-width: 769px) {

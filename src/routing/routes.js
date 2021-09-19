@@ -1,10 +1,10 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 
-import ArtPrompts from "../pages/ArtPrompts";
-import TextPrompts from "../pages/TextPrompts";
-import CodePrompts from "../pages/CodePrompts";
-import SingleItem from "../pages/SingleItem";
+import ArtPrompts from "../pages/art/ArtPrompts";
+import SingleItemArt from "../pages/art/SingleItemArt";
+import TextPrompts from "../pages/text/TextPrompts";
+import SingleItemText from "../pages/text/SingleItemText";
 
 export default function Routes() {
   return (
@@ -16,19 +16,13 @@ export default function Routes() {
         <ArtPrompts />
       </Route>
       <Route path="/art/:itemId">
-        <SingleItem />
+        <SingleItemArt />
       </Route>
       <Route exact path="/text">
         <TextPrompts />
       </Route>
       <Route path="/text/:itemId">
-        <SingleItem />
-      </Route>
-      <Route exact path="/code">
-        <CodePrompts />
-      </Route>
-      <Route path="/code/:itemId">
-        <SingleItem />
+        <SingleItemText />
       </Route>
     </Switch>
   );

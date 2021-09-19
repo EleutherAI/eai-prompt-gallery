@@ -1,0 +1,15 @@
+[
+  {
+    "id": "0",
+    "title": "English speaking Unicorns in the Andes",
+    "prompt": "A pile of books",
+    "completion": "/api/art/image1.png",
+    "type": "art",
+    "category": "",
+    "createdDate": "",
+    "author": "",
+    "modelName": "GPT-6-B",
+    "sourceLink": "https://openai.com/blog/better-language-models/",
+    "tags": ["fantasy", "news", "article"]
+  }
+]

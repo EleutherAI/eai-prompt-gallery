@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 
-import Navigation from "../components/shared/Navigation";
-import AssetList from "../components/AssetList/AssetList";
+import Navigation from "../../components/shared/Navigation";
+import AssetList from "../../components/AssetList/AssetList";
 
-import "../styles/pages.scss";
+import "../../styles/pages.scss";
 
 export default function TextPrompts() {
   const [textPrompts, setTextPrompts] = useState(undefined);
@@ -23,7 +23,7 @@ export default function TextPrompts() {
     <>
       <Navigation />
       <div className="prompt-list-content">
-        <AssetList data={textPrompts} type="text" />
+        <AssetList className="asset-list text" data={textPrompts} type="text" />
       </div>
     </>
   );

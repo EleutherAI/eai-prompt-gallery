@@ -64,6 +64,30 @@
   }
 }
 
+.art .single-item-content {
+  background-color: transparent;
+}
+
+.art {
+  .single-item-content-completion img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.single-item-container.art .single-item-content .single-item-header {
+  border-bottom: 0px none;
+  margin-bottom: 0.2em;
+}
+
+.single-item-container.art .single-item-content {
+  padding: 1em 0em;
+}
+
+.art .single-item-details {
+  margin-top: 4em;
+}
+
 /* Phone */
 @media (max-width: 450px) {
   .single-item-container .single-item-content {

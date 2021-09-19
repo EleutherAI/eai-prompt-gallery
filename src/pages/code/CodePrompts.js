@@ -1,8 +1,8 @@
 import React from "react";
 
-import Navigation from "../components/shared/Navigation";
+import Navigation from "../../components/shared/Navigation";
 
-import "../styles/pages.scss";
+import "../../styles/pages.scss";
 
 export default function CodePrompts() {
   return (

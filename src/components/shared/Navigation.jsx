@@ -31,14 +31,6 @@ export default function Navigation() {
             Text
           </Link>
         </li>
-        <li>
-          <Link
-            to="/code"
-            className={location.pathname === "/code" ? "active" : ""}
-          >
-            Code
-          </Link>
-        </li>
       </ul>
     </div>
   );

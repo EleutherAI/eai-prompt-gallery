@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link, useLocation } from "react-router-dom";
 
-import IconArrow from "../icons/IconArrow";
+import IconArrow from "../../icons/IconArrow";
 
-import "../styles/singleItem.scss";
+import "../../styles/singleItem.scss";
 
 export default function SingleItem() {
   // The <Route> that rendered this component has a
@@ -41,21 +41,28 @@ export default function SingleItem() {
         </Link>
       </p>
 
-      <div className="single-item-container">
+      <div className="single-item-container text">
         <div className="row">
           <div className="single-item-content">
             <div className="single-item-header">
-              <h3 className="single-item-title">{selectedItem?.title}</h3>
-
-              <p className="single-item-subtitle">
-                (Human prompt is in italic, the model completion is in normal
-                font style.)
-              </p>
+              <h3 className="single-item-title">
+                {selectedItem.type === "art"
+                  ? selectedItem?.prompt
+                  : selectedItem?.title}
+              </h3>
+              {selectedItem.type === "text" && (
+                <p className="single-item-subtitle">
+                  (Human prompt is in italic, the model completion is in normal
+                  font style.)
+                </p>
+              )}
             </div>
             <div className="single-item-main">
-              <p className="single-item-content-prompt">
-                {selectedItem.prompt}
-              </p>
+              {selectedItem.type === "text" && (
+                <p className="single-item-content-prompt">
+                  {selectedItem.prompt}
+                </p>
+              )}
               <p className="single-item-content-completion">
                 {selectedItem.completion}
               </p>

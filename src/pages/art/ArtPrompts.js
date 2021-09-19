@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from "react";
 
-import Navigation from "../components/shared/Navigation";
-import AssetList from "../components/AssetList/AssetList";
+import Navigation from "../../components/shared/Navigation";
+import AssetList from "../../components/AssetList/AssetList";
 
-import "../styles/pages.scss";
+import "../../styles/pages.scss";
 
 export default function ArtPrompts() {
   const [artPrompts, setArtPrompts] = useState(undefined);
   useEffect(() => {
-    fetch("http://localhost:3000/api/promptData.json")
+    fetch("http://localhost:3000/api/artPrompts.json")
       .then((response) => {
         return response.json();
       })
       .then((data) => {
         if (data.length > 0) {
-          setArtPrompts(data.filter((prompt) => prompt.promptType === "art"));
+          setArtPrompts(data.filter((prompt) => prompt.type === "art"));
           console.log(data);
         }
       });
@@ -24,8 +24,7 @@ export default function ArtPrompts() {
     <>
       <Navigation />
       <div className="prompt-list-content">
-        Here comes the list of art prompts.
-        <AssetList data={artPrompts} type="art" />
+        <AssetList className="asset-list art" data={artPrompts} type="art" />
       </div>
     </>
   );
