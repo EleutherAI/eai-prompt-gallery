@@ -16,7 +16,7 @@ export default function SingleItem() {
 
   const [selectedItem, setSelectedItem] = useState([]);
   useEffect(() => {
-    fetch(`${proccess.env.REACT_APP_DATA_HOST}/api/artPrompts.json`)
+    fetch(`${process.env.REACT_APP_DATA_HOST}/api/artPrompts.json`)
       .then((response) => {
         return response.json();
       })
