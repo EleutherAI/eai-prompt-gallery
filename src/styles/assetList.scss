@@ -16,6 +16,7 @@
   .asset-body-completion img {
     max-width: 100%;
     height: auto;
+    max-height: 400px;
   }
 
   .asset-body-category .category-text {
@@ -53,6 +54,8 @@
     margin-top: 1em;
     border-top: 1px solid $grey;
     padding: 0.5em 0em;
+    display: flex;
+    justify-content: space-between;
 
     .asset-item-bottom-left {
       .model-icon {
@@ -76,8 +79,17 @@
   font-weight: bold;
 }
 
+.art .asset-body-completion {
+  text-align: center;
+}
+
 @media (max-width: 769px) {
   .asset-data-body {
     width: 100%;
+
+    .asset-body-completion img {
+      max-height: 100%;
+      max-width: 100%;
+    }
   }
 }

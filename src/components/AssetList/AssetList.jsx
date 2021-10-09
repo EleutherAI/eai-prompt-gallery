@@ -14,13 +14,15 @@ const AssetListItem = ({ data, path }) => {
           <span className="category-text">{data.category}</span>
         </div>
       )}
+      <div className="asset-body-title">{data.title}</div>
       {data.type === "text" && (
-        <div className="asset-body-title">{data.title}</div>
+        <div className="asset-body-prompt">"{data.prompt}"</div>
       )}
-      <div className="asset-body-prompt">"{data.prompt}"</div>
       {data.type === "art" && data.completion && (
         <div className="asset-body-completion">
-          <img src={data.completion} alt="" />
+          <Link to={`${path}/${data.id}`}>
+            <img src={data.completion} alt={data.title} />
+          </Link>
         </div>
       )}
       <div className="asset-body-details">
@@ -45,7 +47,9 @@ const AssetListItem = ({ data, path }) => {
             <span className="model-name">{data.modelName}</span>
           </div>
         </div>
-        <div className="asset-item-bottom-right">{data.author}</div>
+        {data.author && (
+          <div className="asset-item-bottom-right">@{data.author}</div>
+        )}
       </div>
     </li>
   );

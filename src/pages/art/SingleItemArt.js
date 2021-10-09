@@ -73,10 +73,12 @@ export default function SingleItem() {
         </div> */}
           <div className="single-item-details">
             <ul>
-              <li>
-                <p className="details-list-label">Prompt Category</p>
-                <p className="details-list-text">{selectedItem.category}</p>
-              </li>
+              {selectedItem.type === "text" && (
+                <li>
+                  <p className="details-list-label">Prompt Category</p>
+                  <p className="details-list-text">{selectedItem.category}</p>
+                </li>
+              )}
               <li>
                 <p className="details-list-label">Tags</p>
                 <p className="details-list-text">
