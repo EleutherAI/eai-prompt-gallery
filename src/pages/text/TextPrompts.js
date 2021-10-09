@@ -8,7 +8,7 @@ import "../../styles/pages.scss";
 export default function TextPrompts() {
   const [textPrompts, setTextPrompts] = useState(undefined);
   useEffect(() => {
-    fetch(`${REACT_APP_DATA_HOST}/api/textPrompts.json`)
+    fetch(`${proccess.env.REACT_APP_DATA_HOST}/api/textPrompts.json`)
       .then((response) => {
         return response.json();
       })

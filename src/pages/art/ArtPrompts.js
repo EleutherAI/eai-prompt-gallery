@@ -8,7 +8,7 @@ import "../../styles/pages.scss";
 export default function ArtPrompts() {
   const [artPrompts, setArtPrompts] = useState(undefined);
   useEffect(() => {
-    fetch(`${REACT_APP_DATA_HOST}/api/artPrompts.json`)
+    fetch(`${proccess.env.REACT_APP_DATA_HOST}/api/artPrompts.json`)
       .then((response) => {
         return response.json();
       })
