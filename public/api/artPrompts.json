@@ -7,7 +7,7 @@
     "type": "art",
     "category": "",
     "createdDate": "",
-    "author": "",
+    "author": "BoneAmputee",
     "modelName": "VQGAN-CLIP",
     "sourceLink": "",
     "tags": ["food", "sci-fi"]
@@ -99,7 +99,7 @@
     "type": "art",
     "category": "",
     "createdDate": "",
-    "author": "gandamu",
+    "author": "softology",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
@@ -112,7 +112,7 @@
     "type": "art",
     "category": "",
     "createdDate": "",
-    "author": "gandamu",
+    "author": "jbustter",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
@@ -125,7 +125,7 @@
     "type": "art",
     "category": "",
     "createdDate": "",
-    "author": "gandamu",
+    "author": "jbustter",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
@@ -138,7 +138,7 @@
     "type": "art",
     "category": "",
     "createdDate": "",
-    "author": "gandamu",
+    "author": "nshepperd",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
@@ -151,15 +151,15 @@
     "type": "art",
     "category": "",
     "createdDate": "",
-    "author": "gandamu",
+    "author": "MatiasC9",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
   },
   {
     "id": "12",
-    "title": "cthulthu rockband performance",
-    "prompt": "cthulthu rockband performance",
+    "title": "Cthulhu rockband performance",
+    "prompt": "Cthulhu rockband performance",
     "completion": "/api/art/cthulhu_rock_band_performance.png",
     "type": "art",
     "category": "",
