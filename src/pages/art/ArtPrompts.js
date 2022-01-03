@@ -15,7 +15,6 @@ export default function ArtPrompts() {
       .then((data) => {
         if (data.length > 0) {
           setArtPrompts(data.filter((prompt) => prompt.type === "art"));
-          console.log(data);
         }
       });
   }, []);

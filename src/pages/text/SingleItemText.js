@@ -25,7 +25,6 @@ export default function SingleItem() {
           setSelectedItem(
             data.filter((prompt) => prompt.type === category)[itemId]
           );
-          console.log(data);
         }
       });
   }, [category, itemId]);

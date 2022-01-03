@@ -5,24 +5,25 @@ import AssetList from "../../components/AssetList/AssetList";
 
 import "../../styles/pages.scss";
 
-export default function TextPrompts() {
-  const [textPrompts, setTextPrompts] = useState(undefined);
+export default function ArtPrompts() {
+  const [artPrompts, setArtPrompts] = useState(undefined);
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_DATA_HOST}/api/textPrompts.json`)
+    fetch(`${import.meta.env.VITE_DATA_HOST}/api/artPrompts.json`)
       .then((response) => {
         return response.json();
       })
       .then((data) => {
         if (data.length > 0) {
-          setTextPrompts(data.filter((prompt) => prompt.type === "text"));
+          setArtPrompts(data.filter((prompt) => prompt.type === "art"));
         }
       });
   }, []);
+
   return (
     <>
       <Navigation />
       <div className="prompt-list-content">
-        <AssetList className="asset-list text" data={textPrompts} type="text" />
+        <AssetList className="asset-list art" data={artPrompts} type="art" />
       </div>
     </>
   );
