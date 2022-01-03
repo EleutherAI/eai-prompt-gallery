@@ -16,7 +16,7 @@
   {
     "id": "1",
     "date": "20211015",
-    "title": "A vision of hell",
+    "title": "a vision of hell",
     "prompt": "a vision of hell | trending on artstation",
     "completion": "/api/art/vision_of_hell.png",
     "type": "art",
@@ -224,7 +224,7 @@
   {
     "id": "17",
     "date": "20220103",
-    "title": "Lanscape resembling congitive transcendence",
+    "title": "Landscape resembling congitive transcendence",
     "prompt": "a landscape resembling cognitive transcendence by James Gurney.",
     "completion": "/api/art/a_landscape_resembling_cognitive_transcendence.png",
     "type": "art",
@@ -232,6 +232,6 @@
     "author": "crung",
     "modelName": "VQGAN-CLIP",
     "sourceLink": "",
-    "tags": ["lanscape", "surrealism"]
+    "tags": ["landscape", "surrealism"]
   }
 ]
