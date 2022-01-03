@@ -14,6 +14,7 @@ export default function Navigation() {
       <h4 className="page-subtitle">
         Explore compilations of the most memorable prompts on AI models.
       </h4>
+
       <ul className="main-categories-nav">
         <li>
           <Link

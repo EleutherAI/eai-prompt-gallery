@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import IconArrow from "../../icons/IconArrow";
 import IconBrain from "../../icons/IconBrain";
@@ -57,21 +57,43 @@ const AssetListItem = ({ data, path }) => {
 
 export default function AssetList({ data, type }) {
   const location = useLocation();
+  const [sortByOldest, setSortByOldest] = useState(false);
   const path = location.pathname;
-
+  const sortedList =
+    data &&
+    data.length &&
+    data.sort((a, b) => (!setSortByOldest ? b.date - a.date : a.date - b.date));
   return (
     <div className="assets-list-container">
-      {/* <div className="assets-list-top-navigation">Asset list navigation</div> */}
+      <div className="assets-list-top-navigation">
+        <button
+          className={`sort-button newest ${!sortByOldest ? "active" : ""}`}
+          onClick={() => setSortByOldest(!sortByOldest)}
+        >
+          Latest
+        </button>
+        <button
+          className={`sort-button newest ${sortByOldest ? "active" : ""}`}
+          onClick={() => setSortByOldest(!sortByOldest)}
+        >
+          Oldest
+        </button>
+      </div>
+
       <div className="assets-list-body">
         {!data && <Loader />}
-        {data?.length === 0 && (
+        {sortedList?.length === 0 && (
           <div className="no-assets-message">No assets found</div>
         )}
         <ul className={"main-list " + type}>
           {data?.length > 0 &&
-            data.map((item) => {
-              return <AssetListItem key={item.id} data={item} path={path} />;
-            })}
+            data
+              .sort((a, b) =>
+                !sortByOldest ? b.date - a.date : a.date - b.date
+              )
+              .map((item) => {
+                return <AssetListItem key={item.id} data={item} path={path} />;
+              })}
         </ul>
       </div>
     </div>
