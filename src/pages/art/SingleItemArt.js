@@ -90,6 +90,10 @@ export default function SingleItem() {
                 <p className="details-list-label">Model</p>
                 <p className="details-list-text">{selectedItem.modelName}</p>
               </li>
+              <li>
+                <p className="details-list-label">Author</p>
+                <p className="details-list-text">{selectedItem.author}</p>
+              </li>
             </ul>
           </div>
         </div>
