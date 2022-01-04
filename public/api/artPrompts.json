@@ -197,7 +197,7 @@
   },
   {
     "id": "15",
-    "date": "20220103",
+    "date": "20220102",
     "title": "A vapowave rifle concept art",
     "prompt": "concept art of a vaporwave rifle by steven belledin.",
     "completion": "/api/art/a_vaporwave_rifle.png",
@@ -210,7 +210,7 @@
   },
   {
     "id": "16",
-    "date": "20220103",
+    "date": "20220102",
     "title": "Great construction worker siege",
     "prompt": "the great construction worker siege of melbourne by steven belledin.",
     "completion": "/api/art/the_great_construction_worker_siege.png",
@@ -223,7 +223,7 @@
   },
   {
     "id": "17",
-    "date": "20220103",
+    "date": "20220102",
     "title": "Landscape resembling congitive transcendence",
     "prompt": "a landscape resembling cognitive transcendence by James Gurney.",
     "completion": "/api/art/a_landscape_resembling_cognitive_transcendence.png",
@@ -233,5 +233,83 @@
     "modelName": "VQGAN-CLIP",
     "sourceLink": "",
     "tags": ["landscape", "surrealism"]
+  },
+  {
+    "id": "18",
+    "date": "20220103",
+    "title": "A street vendor on the side of the road in a deserted village",
+    "prompt": "A street vendor by the side of the road in a desert village by greg rutkowski, trending on artstation",
+    "completion": "/api/art/a_street_vendor_by_the_side_of_the_road.png",
+    "type": "art",
+    "category": "",
+    "author": "spacesloth",
+    "modelName": "VQGAN-CLIP",
+    "sourceLink": "",
+    "tags": ["landscape"]
+  },
+  {
+    "id": "19",
+    "date": "20220103",
+    "title": "singularity reign of water",
+    "prompt": "singularity reign of water, trending on artstation",
+    "completion": "/api/art/singularity_reign_of_water.jpeg",
+    "type": "art",
+    "category": "",
+    "author": "Jehuty",
+    "modelName": "VQGAN-CLIP",
+    "sourceLink": "",
+    "tags": ["landscape", "futurism"]
+  },
+  {
+    "id": "20",
+    "date": "20220104",
+    "title": "a persian rug draped over the wall",
+    "prompt": "a persian rug draped over the wall",
+    "completion": "/api/art/a_persian_rug_draped_over_the_wall.png",
+    "type": "art",
+    "category": "",
+    "author": "spacesloth",
+    "modelName": "VQGAN-CLIP",
+    "sourceLink": "",
+    "tags": ["landscape", "futurism"]
+  },
+  {
+    "id": "21",
+    "date": "20220104",
+    "title": "a pirate ship enering atmosphere",
+    "prompt": "a pirate ship entering eaths atmosphere",
+    "completion": "/api/art/a_pirate_ship_entering_earths_atmosphere.png",
+    "type": "art",
+    "category": "",
+    "author": "spacesloth",
+    "modelName": "VQGAN-CLIP",
+    "sourceLink": "",
+    "tags": ["fantasy"]
+  },
+  {
+    "id": "22",
+    "date": "20220104",
+    "title": "a steam powered ship underwater",
+    "prompt": "a steam powered ship underwater",
+    "completion": "/api/art/a_steam_powered_machine_underwater.png",
+    "type": "art",
+    "category": "",
+    "author": "spacesloth",
+    "modelName": "VQGAN-CLIP",
+    "sourceLink": "",
+    "tags": ["fantasy"]
+  },
+  {
+    "id": "23",
+    "date": "20220104",
+    "title": "Time Cube",
+    "prompt": "time cube trending on artstation by Greg Rutkowskiby by Zladislaw Beksinski",
+    "completion": "/api/art/time_cube_trending_on_artstation.png",
+    "type": "art",
+    "category": "",
+    "author": "nshepperd",
+    "modelName": "VQGAN-CLIP",
+    "sourceLink": "",
+    "tags": ["fantasy"]
   }
 ]
