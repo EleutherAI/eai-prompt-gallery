@@ -1,10 +1,12 @@
 import React from "react";
+import ScrollArrow from "./ScrollArrow";
 
 import "../../styles/header.scss";
 
 const Header = () => {
   return (
     <header className="header-container">
+      <ScrollArrow />
       <div className="content-wrapper row">
         <div>
           <h1 className="logo">
