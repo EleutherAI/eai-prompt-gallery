@@ -7,6 +7,7 @@ import Loader from "../shared/Loader";
 import "../../styles/assetList.scss";
 
 const AssetListItem = ({ data, path }) => {
+  const [imageLoaded, setImageLoaded] = useState(false);
   return (
     <li key={data.id} className="asset-data-body">
       {data.type === "text" && (
@@ -21,7 +22,13 @@ const AssetListItem = ({ data, path }) => {
       {data.type === "art" && data.completion && (
         <div className="asset-body-completion">
           <Link to={`${path}/${data.id}`}>
-            <img src={data.completion} alt={data.title} />
+            <img
+              style={imageLoaded ? {} : { display: "none" }}
+              src={data.completion}
+              alt={data.title}
+              onLoad={() => setImageLoaded(true)}
+              loading="lazy"
+            />
           </Link>
         </div>
       )}
