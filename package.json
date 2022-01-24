@@ -1,5 +1,5 @@
 {
-  "name": "eleutherai-generative-library",
+  "name": "eleutherai-prompt-gallery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,7 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.0",
     "sass": "^1.38.0",
     "web-vitals": "^1.0.1"
   },
@@ -20,11 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "engines": {
+    "node": ">=14.17.0"
   },
   "browserslist": {
     "production": [
