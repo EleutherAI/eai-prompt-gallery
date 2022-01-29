@@ -88,6 +88,11 @@
   margin-top: 4em;
 }
 
+.author-link {
+  color: $light-blue;
+  text-decoration: underline;
+}
+
 /* Phone */
 @media (max-width: 450px) {
   .single-item-container .single-item-content {

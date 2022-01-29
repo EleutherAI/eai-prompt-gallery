@@ -96,7 +96,15 @@ export default function SingleItem() {
               </li>
               <li>
                 <p className="details-list-label">Author</p>
-                <p className="details-list-text">{selectedItem.author}</p>
+                {selectedItem.authorLink ? (
+                  <p className="details-list-text">
+                    <a href={selectedItem.authorLink} className="author-link">
+                      {selectedItem.author}
+                    </a>
+                  </p>
+                ) : (
+                  <p className="details-list-text">{selectedItem.author}</p>
+                )}
               </li>
             </ul>
           </div>

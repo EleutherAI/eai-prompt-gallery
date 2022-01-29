@@ -8,6 +8,7 @@
     "type": "art",
     "category": "",
     "author": "BoneAmputee",
+    "authorLink": "",
     "modelName": "CLIP+VQGAN",
     "sourceLink": "",
     "tags": ["food", "sci-fi"]
@@ -22,6 +23,7 @@
     "type": "art",
     "category": "",
     "author": "nshepperd",
+    "authorLink": "",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
@@ -35,6 +37,7 @@
     "type": "art",
     "category": "",
     "author": "nshepperd",
+    "authorLink": "",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
@@ -48,6 +51,7 @@
     "type": "art",
     "category": "",
     "author": "nshepperd",
+    "authorLink": "",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["landscape", "painting"]
@@ -61,6 +65,7 @@
     "type": "art",
     "category": "",
     "author": "softology",
+    "authorLink": "",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "painting"]
@@ -74,6 +79,7 @@
     "type": "art",
     "category": "",
     "author": "softology",
+    "authorLink": "",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "futurism"]
@@ -87,6 +93,7 @@
     "type": "art",
     "category": "",
     "author": "softology",
+    "authorLink": "",
     "modelName": "CLIP+VQGAN",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
@@ -100,6 +107,7 @@
     "type": "art",
     "category": "",
     "author": "softology",
+    "authorLink": "",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
@@ -113,6 +121,7 @@
     "type": "art",
     "category": "",
     "author": "jbustter",
+    "authorLink": "",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
@@ -126,6 +135,7 @@
     "type": "art",
     "category": "",
     "author": "jbustter",
+    "authorLink": "",
     "modelName": "CLIP+VQGAN",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
@@ -139,6 +149,7 @@
     "type": "art",
     "category": "",
     "author": "nshepperd",
+    "authorLink": "",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
@@ -152,6 +163,7 @@
     "type": "art",
     "category": "",
     "author": "MatiasC9",
+    "authorLink": "",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
@@ -165,6 +177,7 @@
     "type": "art",
     "category": "",
     "author": "gandamu",
+    "authorLink": "",
     "modelName": "DT+diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
@@ -178,6 +191,7 @@
     "type": "art",
     "category": "",
     "author": "",
+    "authorLink": "",
     "modelName": "CLIP+VQGAN",
     "sourceLink": "",
     "tags": ["fantasy", "news", "article"]
@@ -191,6 +205,7 @@
     "type": "art",
     "category": "",
     "author": "BlueAmulet",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["city", "urban"]
@@ -204,6 +219,7 @@
     "type": "art",
     "category": "",
     "author": "crung",
+    "authorLink": "https://twitter.com/0xCrung",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["weapons", "futurism"]
@@ -217,6 +233,7 @@
     "type": "art",
     "category": "",
     "author": "crung",
+    "authorLink": "https://twitter.com/0xCrung",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["city", "warfare"]
@@ -230,6 +247,7 @@
     "type": "art",
     "category": "",
     "author": "crung",
+    "authorLink": "https://twitter.com/0xCrung",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["landscape", "surrealism"]
@@ -243,6 +261,7 @@
     "type": "art",
     "category": "",
     "author": "spacesloth",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["landscape"]
@@ -256,6 +275,7 @@
     "type": "art",
     "category": "",
     "author": "Jehuty",
+    "authorLink": "",
     "modelName": "CLIP+VQGAN",
     "sourceLink": "",
     "tags": ["landscape", "futurism"]
@@ -269,6 +289,7 @@
     "type": "art",
     "category": "",
     "author": "spacesloth",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["landscape", "futurism"]
@@ -282,6 +303,7 @@
     "type": "art",
     "category": "",
     "author": "spacesloth",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["fantasy"]
@@ -295,6 +317,7 @@
     "type": "art",
     "category": "",
     "author": "spacesloth",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["fantasy"]
@@ -308,6 +331,7 @@
     "type": "art",
     "category": "",
     "author": "nshepperd",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["fantasy"]
@@ -321,6 +345,7 @@
     "type": "art",
     "category": "",
     "author": "crung",
+    "authorLink": "https://twitter.com/0xCrung",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["horror", "architecture"]
@@ -334,6 +359,7 @@
     "type": "art",
     "category": "",
     "author": "danielrussruss",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["horror", "nature"]
@@ -347,6 +373,7 @@
     "type": "art",
     "category": "",
     "author": "somnai",
+    "authorLink": "",
     "modelName": "CLIP+VQGAN",
     "sourceLink": "",
     "tags": ["animal"]
@@ -360,6 +387,7 @@
     "type": "art",
     "category": "",
     "author": "somnai",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["architecture", "city"]
@@ -373,6 +401,7 @@
     "type": "art",
     "category": "",
     "author": "crung",
+    "authorLink": "https://twitter.com/0xCrung",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["fantasy"]
@@ -386,6 +415,7 @@
     "type": "art",
     "category": "",
     "author": "danielrussruss",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["food"]
@@ -399,6 +429,7 @@
     "type": "art",
     "category": "",
     "author": "danielrussruss",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["food", "fantasy"]
@@ -412,6 +443,7 @@
     "type": "art",
     "category": "",
     "author": "Prof R.J",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "landscape"]
@@ -425,6 +457,7 @@
     "type": "art",
     "category": "",
     "author": "somnai",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "landscape"]
@@ -438,6 +471,7 @@
     "type": "art",
     "category": "",
     "author": "Prof R.J",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["nature", "landscape"]
@@ -451,6 +485,7 @@
     "type": "art",
     "category": "",
     "author": "danielrussruss",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["food", "surrealism"]
@@ -464,6 +499,7 @@
     "type": "art",
     "category": "",
     "author": "crung",
+    "authorLink": "https://twitter.com/0xCrung",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["horror", "fashion"]
@@ -477,6 +513,7 @@
     "type": "art",
     "category": "",
     "author": "somnai",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["food"]
@@ -490,6 +527,7 @@
     "type": "art",
     "category": "",
     "author": "spacesloth",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["landscape"]
@@ -499,10 +537,11 @@
     "date": "20220102",
     "title": "Inside the escape pod",
     "prompt": "The view from inside the escape pod by greg rutkowski, trending on artstation.",
-    "completion": "inside_the_escape_pod.png",
+    "completion": " inside_the_escape_pod.png",
     "type": "art",
     "category": "",
     "author": "spacesloth",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["sci-fi"]
@@ -516,6 +555,7 @@
     "type": "art",
     "category": "",
     "author": "spacesloth",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["nature", "architecture"]
@@ -529,6 +569,7 @@
     "type": "art",
     "category": "",
     "author": "spacesloth",
+    "authorLink": "",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["sci-fi", "architecture"]
