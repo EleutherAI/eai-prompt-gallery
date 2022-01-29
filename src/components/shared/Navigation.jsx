@@ -12,7 +12,16 @@ export default function Navigation() {
     <div>
       <h2 className="page-title">Prompt library</h2>
       <h4 className="page-subtitle">
-        Explore compilations of the most memorable prompts on AI models.
+        Explore our gallery of AI generated art and text. Want more? Visit our
+        <a className="link-blue" href="https://www.eleuther.ai/">
+          {" "}
+          website{" "}
+        </a>{" "}
+        or Join our{" "}
+        <a className="link-blue" href="https://discord.gg/AAZybx2r">
+          discord
+        </a>
+        .
       </h4>
 
       <ul className="main-categories-nav">
