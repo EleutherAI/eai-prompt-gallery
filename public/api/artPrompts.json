@@ -8,7 +8,7 @@
     "type": "art",
     "category": "",
     "author": "BoneAmputee",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP+VQGAN",
     "sourceLink": "",
     "tags": ["food", "sci-fi"]
   },
@@ -87,7 +87,7 @@
     "type": "art",
     "category": "",
     "author": "softology",
-    "modelName": "DT+diffusion",
+    "modelName": "CLIP+VQGAN",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
   },
@@ -126,7 +126,7 @@
     "type": "art",
     "category": "",
     "author": "jbustter",
-    "modelName": "DT+diffusion",
+    "modelName": "CLIP+VQGAN",
     "sourceLink": "",
     "tags": ["fantasy", "horror"]
   },
@@ -178,7 +178,7 @@
     "type": "art",
     "category": "",
     "author": "",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP+VQGAN",
     "sourceLink": "",
     "tags": ["fantasy", "news", "article"]
   },
@@ -191,7 +191,7 @@
     "type": "art",
     "category": "",
     "author": "BlueAmulet",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["city", "urban"]
   },
@@ -204,7 +204,7 @@
     "type": "art",
     "category": "",
     "author": "crung",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["weapons", "futurism"]
   },
@@ -217,7 +217,7 @@
     "type": "art",
     "category": "",
     "author": "crung",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["city", "warfare"]
   },
@@ -230,7 +230,7 @@
     "type": "art",
     "category": "",
     "author": "crung",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["landscape", "surrealism"]
   },
@@ -243,7 +243,7 @@
     "type": "art",
     "category": "",
     "author": "spacesloth",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["landscape"]
   },
@@ -256,7 +256,7 @@
     "type": "art",
     "category": "",
     "author": "Jehuty",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP+VQGAN",
     "sourceLink": "",
     "tags": ["landscape", "futurism"]
   },
@@ -269,7 +269,7 @@
     "type": "art",
     "category": "",
     "author": "spacesloth",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["landscape", "futurism"]
   },
@@ -282,7 +282,7 @@
     "type": "art",
     "category": "",
     "author": "spacesloth",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["fantasy"]
   },
@@ -295,7 +295,7 @@
     "type": "art",
     "category": "",
     "author": "spacesloth",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["fantasy"]
   },
@@ -308,7 +308,7 @@
     "type": "art",
     "category": "",
     "author": "nshepperd",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["fantasy"]
   },
@@ -321,7 +321,7 @@
     "type": "art",
     "category": "",
     "author": "crung",
-    "modelName": "CLIP guided diffusion",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["horror", "architecture"]
   },
@@ -334,7 +334,7 @@
     "type": "art",
     "category": "",
     "author": "danielrussruss",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["horror", "nature"]
   },
@@ -347,7 +347,7 @@
     "type": "art",
     "category": "",
     "author": "somnai",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP+VQGAN",
     "sourceLink": "",
     "tags": ["animal"]
   },
@@ -360,7 +360,7 @@
     "type": "art",
     "category": "",
     "author": "somnai",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["architecture", "city"]
   },
@@ -373,7 +373,7 @@
     "type": "art",
     "category": "",
     "author": "crung",
-    "modelName": "CLIP guided diffusion",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["fantasy"]
   },
@@ -386,7 +386,7 @@
     "type": "art",
     "category": "",
     "author": "danielrussruss",
-    "modelName": "CLIP guided diffusion",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["food"]
   },
@@ -399,7 +399,7 @@
     "type": "art",
     "category": "",
     "author": "danielrussruss",
-    "modelName": "CLIP guided diffusion",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["food", "fantasy"]
   },
@@ -412,7 +412,7 @@
     "type": "art",
     "category": "",
     "author": "Prof R.J",
-    "modelName": "CLIP guided diffusion",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "landscape"]
   },
@@ -425,7 +425,7 @@
     "type": "art",
     "category": "",
     "author": "somnai",
-    "modelName": "CLIP guided diffusion",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "landscape"]
   },
@@ -438,7 +438,7 @@
     "type": "art",
     "category": "",
     "author": "Prof R.J",
-    "modelName": "CLIP guided diffusion",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["nature", "landscape"]
   },
@@ -451,7 +451,7 @@
     "type": "art",
     "category": "",
     "author": "danielrussruss",
-    "modelName": "CLIP guided diffusion",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["food"]
   },
@@ -464,7 +464,7 @@
     "type": "art",
     "category": "",
     "author": "crung",
-    "modelName": "CLIP guided diffusion",
+    "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["horror", "fashion"]
   }
