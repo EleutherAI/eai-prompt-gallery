@@ -12,11 +12,13 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.0",
     "sass": "^1.38.0",
+    "sharp": "^0.29.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "resizeImages": "node ./createThumbnails.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

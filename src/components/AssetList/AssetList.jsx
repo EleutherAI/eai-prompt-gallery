@@ -21,7 +21,11 @@ const AssetListItem = ({ data, path }) => {
       {data.type === "art" && data.completion && (
         <div className="asset-body-completion">
           <Link to={`${path}/${data.id}`}>
-            <img src={data.completion} alt={data.title} loading="lazy" />
+            <img
+              src={`/api/art/thumbnails/${data.completion}`}
+              alt={data.title}
+              loading="lazy"
+            />
           </Link>
         </div>
       )}

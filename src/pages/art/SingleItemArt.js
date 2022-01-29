@@ -45,10 +45,11 @@ export default function SingleItem() {
           <div className="single-item-content">
             <div className="single-item-header">
               <h3 className="single-item-title">
-                {selectedItem.type === "art"
-                  ? selectedItem?.prompt
-                  : selectedItem?.title}
+                {selectedItem.type === "art" && selectedItem?.title}
               </h3>
+              {selectedItem.type === "art" && (
+                <p className="single-item-subtitle">"{selectedItem?.prompt}"</p>
+              )}
               {selectedItem.type === "text" && (
                 <p className="single-item-subtitle">
                   (Human prompt is in italic, the model completion is in normal
@@ -63,7 +64,10 @@ export default function SingleItem() {
                 </p>
               )}
               <p className="single-item-content-completion">
-                <img src={selectedItem.completion} alt="" />
+                <img
+                  src={`/api/art/optimised/${selectedItem.completion}`}
+                  alt={selectedItem.completion}
+                />
               </p>
             </div>
           </div>
@@ -87,7 +91,7 @@ export default function SingleItem() {
                 </p>
               </li>
               <li>
-                <p className="details-list-label">Model</p>
+                <p className="details-list-label">Method</p>
                 <p className="details-list-text">{selectedItem.modelName}</p>
               </li>
               <li>
