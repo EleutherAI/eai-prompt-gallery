@@ -321,7 +321,7 @@
     "type": "art",
     "category": "",
     "author": "crung",
-    "modelName": "VQGAN-CLIP",
+    "modelName": "CLIP guided diffusion",
     "sourceLink": "",
     "tags": ["horror", "architecture"]
   },
@@ -428,5 +428,44 @@
     "modelName": "CLIP guided diffusion",
     "sourceLink": "",
     "tags": ["fantasy", "landscape"]
+  },
+  {
+    "id": "33",
+    "date": "20220129",
+    "title": "A scenic view of the blue mountains",
+    "prompt": "'A scenic view of the blue mountains', matte painting trending on artstation",
+    "completion": "blue_mountains.png",
+    "type": "art",
+    "category": "",
+    "author": "Prof R.J",
+    "modelName": "CLIP guided diffusion",
+    "sourceLink": "",
+    "tags": ["nature", "landscape"]
+  },
+  {
+    "id": "34",
+    "date": "20220129",
+    "title": "Ada Lovelace in Soup",
+    "prompt": "there's an ada lovelace in my soup",
+    "completion": "ada_lovelace_in_soup.png",
+    "type": "art",
+    "category": "",
+    "author": "danielrussruss",
+    "modelName": "CLIP guided diffusion",
+    "sourceLink": "",
+    "tags": ["food"]
+  },
+  {
+    "id": "35",
+    "date": "20220129",
+    "title": "fashionista nyarlathotep",
+    "prompt": "fashionista nyarlathotep",
+    "completion": "fashionista_nyarlathotep.png",
+    "type": "art",
+    "category": "",
+    "author": "crung",
+    "modelName": "CLIP guided diffusion",
+    "sourceLink": "",
+    "tags": ["horror", "fashion"]
   }
 ]
