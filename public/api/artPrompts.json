@@ -263,8 +263,8 @@
   {
     "id": "20",
     "date": "20220104",
-    "title": "a persian rug draped over the wall",
-    "prompt": "a persian rug draped over the wall",
+    "title": "A persian rug draped over the wall",
+    "prompt": "A persian rug draped over the wall by Marek Okon, trending on artstation.",
     "completion": "a_persian_rug_draped_over_the_wall.png",
     "type": "art",
     "category": "",
@@ -453,7 +453,7 @@
     "author": "danielrussruss",
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
-    "tags": ["food"]
+    "tags": ["food", "surrealism"]
   },
   {
     "id": "35",
@@ -480,5 +480,57 @@
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["food"]
+  },
+  {
+    "id": "37",
+    "date": "20220102",
+    "title": "A circus night",
+    "prompt": "A circus at night by greg rutkowski, trending on artstation.",
+    "completion": "a_circus_night.png",
+    "type": "art",
+    "category": "",
+    "author": "spacesloth",
+    "modelName": "CLIP Guided Diffusion",
+    "sourceLink": "",
+    "tags": ["landscape"]
+  },
+  {
+    "id": "38",
+    "date": "20220102",
+    "title": "Inside the escape pod",
+    "prompt": "The view from inside the escape pod by greg rutkowski, trending on artstation.",
+    "completion": "inside_the_escape_pod.png",
+    "type": "art",
+    "category": "",
+    "author": "spacesloth",
+    "modelName": "CLIP Guided Diffusion",
+    "sourceLink": "",
+    "tags": ["sci-fi"]
+  },
+  {
+    "id": "39",
+    "date": "20220102",
+    "title": "Inside an empty greenhouse",
+    "prompt": "Inside an empty greenhouse with light shining through the vines by greg rutkowski and thomas kinkade, trending on artstation.",
+    "completion": "inside_an_empty_greenhouse.png",
+    "type": "art",
+    "category": "",
+    "author": "spacesloth",
+    "modelName": "CLIP Guided Diffusion",
+    "sourceLink": "",
+    "tags": ["nature", "architecture"]
+  },
+  {
+    "id": "40",
+    "date": "20220102",
+    "title": "An underwater farm",
+    "prompt": "An underwater farm by greg rutkowski and thomas kinkade, trending on artstation",
+    "completion": "underwater_farm.png",
+    "type": "art",
+    "category": "",
+    "author": "spacesloth",
+    "modelName": "CLIP Guided Diffusion",
+    "sourceLink": "",
+    "tags": ["sci-fi", "architecture"]
   }
 ]
