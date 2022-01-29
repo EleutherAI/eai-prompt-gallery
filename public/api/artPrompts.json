@@ -314,7 +314,7 @@
   },
   {
     "id": "24",
-    "date": "20220129",
+    "date": "20220125",
     "title": "Silent Hill Bathroom",
     "prompt": "It looks like silent hill inside this bathroom",
     "completion": "silent_hill_bathroom.png",
@@ -327,7 +327,7 @@
   },
   {
     "id": "25",
-    "date": "20220129",
+    "date": "20220126",
     "title": "Hug monster in the forest",
     "prompt": "Don't hug me, there's no more pretending... I won't be ascending",
     "completion": "hug_monster_in_the_forest.png",
@@ -340,7 +340,7 @@
   },
   {
     "id": "26",
-    "date": "20220129",
+    "date": "20220125",
     "title": "Goose origami",
     "prompt": "Goose origami",
     "completion": "goose_origami.png",
@@ -353,7 +353,7 @@
   },
   {
     "id": "27",
-    "date": "20220129",
+    "date": "20220126",
     "title": "AnCap headquarters",
     "prompt": "anarcho-capitalist mega corp headquarters",
     "completion": "ancap_hq.png",
@@ -379,7 +379,7 @@
   },
   {
     "id": "29",
-    "date": "20220129",
+    "date": "20220127",
     "title": "Spicy fire chicken",
     "prompt": "Spicy fire chicken with cheese (Cheese Buldak: 치즈불닭)",
     "completion": "spicy_fire_cheese_chicken.png",
@@ -392,7 +392,7 @@
   },
   {
     "id": "30",
-    "date": "20220129",
+    "date": "20220127",
     "title": "Gateway of the eternal cream",
     "prompt": "double stuf gateway of eternal cream",
     "completion": "gateway_of_eternal_cream.png",
@@ -405,7 +405,7 @@
   },
   {
     "id": "31",
-    "date": "20220129",
+    "date": "20220128",
     "title": "Cataclysmic war in heaven",
     "prompt": "'Cataclysmic war in heaven', matte painting trending on artstation",
     "completion": "war_in_heaven.png",
@@ -418,7 +418,7 @@
   },
   {
     "id": "32",
-    "date": "20220129",
+    "date": "20220128",
     "title": "The monolith tarot",
     "prompt": "the monolith tarot",
     "completion": "monolith_tarot.png",
@@ -431,7 +431,7 @@
   },
   {
     "id": "33",
-    "date": "20220129",
+    "date": "20220128",
     "title": "A scenic view of the blue mountains",
     "prompt": "'A scenic view of the blue mountains', matte painting trending on artstation",
     "completion": "blue_mountains.png",
@@ -467,5 +467,18 @@
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["horror", "fashion"]
+  },
+  {
+    "id": "36",
+    "date": "20220129",
+    "title": "Mark Zuckerberg Latte",
+    "prompt": "latte art of chibi mark zuckerberg",
+    "completion": "latte_mark_zuckerberg.png",
+    "type": "art",
+    "category": "",
+    "author": "somnai",
+    "modelName": "CLIP Guided Diffusion",
+    "sourceLink": "",
+    "tags": ["food"]
   }
 ]
