@@ -51,14 +51,16 @@ const AssetListItem = ({ data, path }) => {
             <span className="model-name">{data.modelName}</span>
           </div>
         </div>
-        {data.authorLink ? (
+        {data.author && (
           <div className="asset-item-bottom-right">
-            <a href={data.authorLink} className="link-blue">
-              @{data.author}
-            </a>
+            {data.authorLink ? (
+              <a href={data.authorLink} className="link-blue">
+                @{data.author}
+              </a>
+            ) : (
+              <span>@{data.author}</span>
+            )}
           </div>
-        ) : (
-          <div className="asset-item-bottom-right">@{data.author}</div>
         )}
       </div>
     </li>
