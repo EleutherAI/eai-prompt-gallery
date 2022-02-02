@@ -10,7 +10,7 @@ export default function Navigation() {
 
   return (
     <div>
-      <h2 className="page-title">Prompt library</h2>
+      <h2 className="page-title">Prompt Gallery</h2>
       <h4 className="page-subtitle">
         Explore our gallery of AI generated art and text. Want more? Visit our
         <a className="link-blue" href="https://www.eleuther.ai/">
