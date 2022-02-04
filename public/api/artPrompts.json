@@ -601,5 +601,19 @@
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["horror"]
+  },
+  {
+    "id": "43",
+    "date": "20220203",
+    "title": "Mecha Angel Structure",
+    "prompt": "hyperdetailed architectural render of a pastelwave anaglyphic mecha-angel sculpture. i can't believe how detailed this hard-surface modelling architectural render is.",
+    "completion": "mecha_angel_sculpture.png",
+    "type": "art",
+    "category": "",
+    "author": "crung",
+    "authorLink": "https://twitter.com/0xCrung",
+    "modelName": "CLIP Guided Diffusion",
+    "sourceLink": "",
+    "tags": ["sci-fi"]
   }
 ]
