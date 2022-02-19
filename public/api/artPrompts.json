@@ -615,5 +615,33 @@
     "modelName": "CLIP Guided Diffusion",
     "sourceLink": "",
     "tags": ["sci-fi"]
+  },
+  {
+    "id": "44",
+    "date": "20220219",
+    "title": "Alchemist Workshop",
+    "prompt": "35mm analog photo of an alchemist's workshop",
+    "completion": "35mm_analog_photo_of_an_alchemists_workshop.png",
+    "type": "art",
+    "category": "",
+    "author": "crung",
+    "authorLink": "https://twitter.com/0xCrung",
+    "modelName": "CLIP Guided Diffusion",
+    "sourceLink": "",
+    "tags": ["fantasy"]
+  },
+  {
+    "id": "45",
+    "date": "20220219",
+    "title": "Movie Poster - 'Crung'",
+    "prompt": "a poster advertising a movie titled 'crung'",
+    "completion": "crung_the_movie.png",
+    "type": "art",
+    "category": "",
+    "author": "crung",
+    "authorLink": "https://twitter.com/0xCrung",
+    "modelName": "CLIP Guided Diffusion",
+    "sourceLink": "",
+    "tags": ["media"]
   }
 ]
